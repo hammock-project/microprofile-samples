@@ -13,3 +13,7 @@ These examples use Arquillian Tests. By default, Arquillian uses WildFly embedde
  
 * `mvn clean test` (or `mvn clean test -Parquillian-wildfly-managed`)  tests against an embedded WildFly 
 * `mvn clean test -Parquillian-wildfly-remote` tests against a running WildFly 
+
+## License
+
+This is forked from the Microprofile site, with an unknown license. I can only assume its public domain or similar, but no license claims are made by me.

@@ -1,5 +1,6 @@
 package io.microprofile.sample.canonical.rest;
 
+import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.json.Json;
 import javax.json.JsonArrayBuilder;
@@ -13,6 +14,7 @@ import java.util.Random;
 import java.util.logging.Logger;
 
 @Path("/")
+@RequestScoped
 public class TopCDsEndpoint {
 
     @Inject
