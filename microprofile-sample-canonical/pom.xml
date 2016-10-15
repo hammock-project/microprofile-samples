@@ -118,7 +118,7 @@
             <dependencies>
                 <dependency>
                     <groupId>ws.ament.hammock</groupId>
-                    <artifactId>dist-microprofile</artifactId>
+                    <artifactId>web-undertow</artifactId>
                 </dependency>
                 <dependency>
                     <groupId>ws.ament.hammock</groupId>
