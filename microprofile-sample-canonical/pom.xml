@@ -132,5 +132,24 @@
                 </dependency>
             </dependencies>
         </profile>
+        <profile>
+            <id>hammock-cochise</id>
+            <dependencies>
+                <dependency>
+                    <groupId>ws.ament.hammock</groupId>
+                    <artifactId>dist-microprofile-cochise</artifactId>
+                </dependency>
+                <dependency>
+                    <groupId>ws.ament.hammock</groupId>
+                    <artifactId>test-arquillian</artifactId>
+                    <scope>test</scope>
+                </dependency>
+                <dependency>
+                    <groupId>org.apache.openwebbeans.arquillian</groupId>
+                    <artifactId>owb-arquillian-standalone</artifactId>
+                    <scope>test</scope>
+                </dependency>
+            </dependencies>
+        </profile>
     </profiles>
 </project>
